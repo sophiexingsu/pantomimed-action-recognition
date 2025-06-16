@@ -11,59 +11,6 @@
 
 This research project investigates machine learning approaches for recognizing pantomimed actions performed at desktop environments. We leverage existing video recordings of participants performing everyday activities such as taking out pans or brushing teeth, but without the actual objects present. While the original studies focused on different research questions regarding action performance and quality (detailed documentation available in `/docs/`), our dataset presents a unique opportunity to explore object-free action recognition and its potential for improving generalized machine learning capabilities.
 
-## 📊 Dataset Description
-
-Our dataset consists of video recordings capturing human performance of everyday activities in pantomimed form, collected as part of experiment `exp168_ActionsInfluenceMemory`. The dataset includes diverse everyday activities performed without physical objects present.
-
-### Dataset Structure and Scale
-
-**Directory Structure:**
-```
-/data/{study}/
-├── performance/           # Original video recordings
-├── all_pose_data/        # Extracted pose data (CSV format)
-└── all_pose_data_visualization/  # Pose estimation videos
-```
-
-**Dataset Statistics (Study 2 Example):**
-- **Total files:** 8,784
-- **Total directories:** 118  
-- **Total size:** 3.2GB
-- **Video files:** 8,762 MP4 files
-- **Participants:** ~118 unique participant IDs
-- **File naming convention:** `{participant_id}_{action_description}.mp4`
-
-### Action Categories
-
-The dataset includes a wide variety of pantomimed everyday activities, such as:
-- **Gardening activities:** "puts a short plant in the hole", "smooth the dirt around the tall plant", "take a tall plant out of tray"
-- **Kitchen activities:** Taking out pans, Turn on the Stove
-
-### Data Processing Pipeline
-
-The project includes a comprehensive data processing and analysis pipeline:
-
-1. **Video Processing:** Original performance videos stored in participant-specific subdirectories
-2. **Pose Estimation:** Automated pose detection generating CSV files with joint coordinates
-3. **Pose Visualization:** Generated visualization videos showing pose estimation overlays
-4. **Movement Analysis:** Computed movement metrics and quality assessments
-5. **Interactive Dashboard:** Real-time visualization and analysis interface
-
-### Technical Infrastructure
-
-- **Analysis Platform:** Dash-based interactive dashboard for data exploration
-- **Pose Processing:** Automated joint detection and tracking
-- **Data Management:** Structured file organization with participant-based directories
-- **Quality Metrics:** Movement percentage calculations and smoothness assessments
-
-**Key Dataset Characteristics:**
-- Actions performed without physical objects (pantomimed)
-- Desktop/controlled environment recordings
-- Multiple participants with varying performance quality
-- Participants exerted different levels of effort during task execution
-- Comprehensive pose tracking data available for each performance
-- Standardized file naming and organization system
-
 ## 🎯 Research Goals
 
 ### **Goal 1: Action Quality Assessment**
@@ -147,6 +94,59 @@ This project addresses fundamental questions in computer vision and human-comput
 6. **Validation Studies:** Conduct experiments to validate all three research goals
 7. **Real-world Testing:** Deploy enhanced models in uncontrolled environments
 
+## 📊 Dataset Description
+
+Our dataset consists of video recordings capturing human performance of everyday activities in pantomimed form, collected as part of experiment `exp168_ActionsInfluenceMemory`. The dataset includes diverse everyday activities performed without physical objects present.
+
+### Dataset Structure and Scale
+
+**Directory Structure:**
+```
+/data/{study}/
+├── performance/           # Original video recordings
+├── all_pose_data/        # Extracted pose data (CSV format)
+└── all_pose_data_visualization/  # Pose estimation videos
+```
+
+**Dataset Statistics (Study 2 Example):**
+- **Total files:** 8,784
+- **Total directories:** 118  
+- **Total size:** 3.2GB
+- **Video files:** 8,762 MP4 files
+- **Participants:** ~118 unique participant IDs
+- **File naming convention:** `{participant_id}_{action_description}.mp4`
+
+### Action Categories
+
+The dataset includes a wide variety of pantomimed everyday activities, such as:
+- **Gardening activities:** "puts a short plant in the hole", "smooth the dirt around the tall plant", "take a tall plant out of tray"
+- **Kitchen activities:** Taking out pans, Turn on the Stove
+
+### Data Processing Pipeline
+
+The project includes a comprehensive data processing and analysis pipeline:
+
+1. **Video Processing:** Original performance videos stored in participant-specific subdirectories
+2. **Pose Estimation:** Automated pose detection generating CSV files with joint coordinates
+3. **Pose Visualization:** Generated visualization videos showing pose estimation overlays
+4. **Movement Analysis:** Computed movement metrics and quality assessments
+5. **Interactive Dashboard:** Real-time visualization and analysis interface
+
+### Technical Infrastructure
+
+- **Analysis Platform:** Dash-based interactive dashboard for data exploration
+- **Pose Processing:** Automated joint detection and tracking
+- **Data Management:** Structured file organization with participant-based directories
+- **Quality Metrics:** Movement percentage calculations and smoothness assessments
+
+**Key Dataset Characteristics:**
+- Actions performed without physical objects (pantomimed)
+- Desktop/controlled environment recordings
+- Multiple participants with varying performance quality
+- Participants exerted different levels of effort during task execution
+- Comprehensive pose tracking data available for each performance
+- Standardized file naming and organization system
+- 
 ## 🚀 Getting Started
 
 ### Prerequisites
