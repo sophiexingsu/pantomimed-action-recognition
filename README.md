@@ -237,14 +237,13 @@ This project contains unpublished research materials. All rights reserved.
 ## 📞 Contact
 
 For questions about this research, please contact:
-- [Your Name] - [your.email@institution.edu]
-- [Co-author] - [co.author@institution.edu]
+- Sophie Su - s.sophie@wustl.edu
+- Dr.Jeff Zacks- jzacks@wustl.edu
 
 ##  Acknowledgments
 
 - Experiment ID: exp168_ActionsInfluenceMemory
-- [Institution/Lab Name]
-- [Funding Source/Grant Information]
+- Dynamic Cognition Lab
 
 ---
 
