@@ -9,7 +9,7 @@
 
 ## 🎯 Project Statement
 
-This research project investigates machine learning approaches for recognizing pantomimed actions performed at desktop environments. We leverage existing video recordings of participants performing everyday activities such as taking out pans or brushing teeth, but without the actual objects present. While the original studies focused on different research questions regarding action performance and quality (detailed documentation available in `/docs/`), our dataset presents a unique opportunity to explore object-free action recognition and its potential for improving generalized machine learning capabilities.
+This research project investigates machine learning approaches for recognizing pantomimed actions performed at desktop environments. We leverage existing video recordings of participants performing everyday activities such as taking out pans or brushing teeth, but without the actual objects present. While the original studies focused on different research questions regarding action performance and quality (detailed documentation available [here](https://wustl.box.com/s/xj2805y9dq8e7ccr7a2ms2vdpxnwg2i8)), our dataset presents a unique opportunity to explore object-free action recognition and its potential for improving generalized machine learning capabilities.
 
 ## 🎯 Research Goals
 
