@@ -1,4 +1,4 @@
-# Desktop Pantomimed Action Recognition
+# Pantomimed Action Recognition
 
 **⚠️ CONFIDENTIAL - UNPUBLISHED MANUSCRIPT**  
 *This repository contains unpublished research materials. Please do not redistribute without permission.*
@@ -37,10 +37,7 @@ Our dataset consists of video recordings capturing human performance of everyday
 
 The dataset includes a wide variety of pantomimed everyday activities, such as:
 - **Gardening activities:** "puts a short plant in the hole", "smooth the dirt around the tall plant", "take a tall plant out of tray"
-- **Personal care:** "take off gloves", "wipe nose with arm"
-- **Movement patterns:** "walk in from the right"
-- **Kitchen activities:** Taking out pans, brushing teeth
-- **Other daily tasks:** Various common activities
+- **Kitchen activities:** Taking out pans, Turn on the Stove
 
 ### Data Processing Pipeline
 
